@@ -18,7 +18,9 @@ public class CountRealNumbers {
             numbersCount.put(number, numbersCount.get(number) + 1);
         }
         for (Map.Entry<Double, Integer> entry : numbersCount.entrySet()) {
-            System.out.printf("%.1f -> %d%n", entry.getKey(), entry.getValue());
+            System.out.printf("%.1f -> %d%n",
+                    entry.getKey(),
+                    entry.getValue());
         }
     }
 }

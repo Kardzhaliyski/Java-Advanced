@@ -18,13 +18,15 @@ public class AverageStudentsGrades {
         for (Map.Entry<String, ArrayList<Double>> student : studentsGrades.entrySet()) {
             System.out.print(student.getKey() + " -> ");
             for (Double grade : student.getValue()) {
-                System.out.printf("%.2f ",grade);
+                System.out.printf("%.2f ",
+                        grade);
             }
 
             System.out.println();
             //double averageGrade = student.getValue().stream().mapToDouble(e -> e).average().orElse(0);
             double avrGrade = getAverage(student.getValue());
-            System.out.printf("(avg: %.2f)%n", avrGrade);
+            System.out.printf("(avg: %.2f)%n",
+                    avrGrade);
         }
 
     }
