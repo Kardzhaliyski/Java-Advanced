@@ -1,110 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="36b26657-9b71-4162-935a-13b1e5bdba2c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/BrowserHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/DecimalToBinary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/SimpleCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/Java-Advanced.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.StackAndQueues.iml" beforeDir="false" afterPath="$PROJECT_DIR$/1.StackAndQueues.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BrowserHistory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BrowserHistory2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DecimalToBinaryConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HotPotato.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MatchingBrackets.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MathPotato.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrinterQueue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SimpleCalculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1.StackAndQueuesExercise/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1.StackAndQueuesExercise/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1.StackAndQueuesExercise/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1.StackAndQueuesExercise/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1.StackAndQueuesExercise/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1.StackAndQueuesExercise/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1.StackAndQueuesExercise/1.StackAndQueuesExercise.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1.StackAndQueuesExercise/src/com/company/BalancedParentheses.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1.StackAndQueuesExercise/src/com/company/BasicQueueOperations.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1.StackAndQueuesExercise/src/com/company/BasicStackOperations.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1.StackAndQueuesExercise/src/com/company/InfixToPostfix.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1.StackAndQueuesExercise/src/com/company/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1.StackAndQueuesExercise/src/com/company/MaximumElement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1.StackAndQueuesExercise/src/com/company/PoisonousPlants.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1.StackAndQueuesExercise/src/com/company/PoisonousPlants2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1.StackAndQueuesExercise/src/com/company/ReverseNumbersWithStack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1.StackAndQueuesExercise/src/com/company/Robotics.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1.StackAndQueuesExercise/src/com/company/SimpleTextEditor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1.StackAndQueuesExercise/src/com/company/Tests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2.MultidimensionalArrays/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2.MultidimensionalArrays/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2.MultidimensionalArrays/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2.MultidimensionalArrays/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2.MultidimensionalArrays/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2.MultidimensionalArrays/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2.MultidimensionalArrays/2.MultidimensionalArrays.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2.MultidimensionalArrays/src/com/company/FindTheRealQueen.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2.MultidimensionalArrays/src/com/company/IntersectionOfTwoMatrices.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2.MultidimensionalArrays/src/com/company/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2.MultidimensionalArrays/src/com/company/MaxumumSumOf2x2Submatrix.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2.MultidimensionalArrays/src/com/company/PositionsOf.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2.MultidimensionalArrays/src/com/company/PrintDiagonalsOfSqareMatrix.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2.MultidimensionalArrays/src/com/company/SumMatrixElements.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2.MultidimensionalArrays/src/com/company/Tests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2.MultidimensionalArrays/src/com/company/WrongMeasurements.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2.MultidimensionalArraysExercise/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2.MultidimensionalArraysExercise/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2.MultidimensionalArraysExercise/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2.MultidimensionalArraysExercise/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2.MultidimensionalArraysExercise/2.MultidimensionalArraysExercise.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2.MultidimensionalArraysExercise/src/Crossfire.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2.MultidimensionalArraysExercise/src/CrossfireWithLists.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2.MultidimensionalArraysExercise/src/DiagonalDifference.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2.MultidimensionalArraysExercise/src/FillMatirx.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2.MultidimensionalArraysExercise/src/MatrixOfPalindromes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2.MultidimensionalArraysExercise/src/MatrixShuffling.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2.MultidimensionalArraysExercise/src/MaximumSum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2.MultidimensionalArraysExercise/src/ParkingSystem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2.MultidimensionalArraysExercise/src/ParkingSystem2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2.MultidimensionalArraysExercise/src/RadioactiveBunnyes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2.MultidimensionalArraysExercise/src/ReverseMatrixDiagonals.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2.MultidimensionalArraysExercise/src/StringMatrixRotation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2.MultidimensionalArraysExercise/src/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2.MultidimensionalArraysExercise/src/TheHeiganDance.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2.MultidimensionalArraysExercise/src/TheMatrix.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3.SetsAndMaps/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3.SetsAndMaps/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3.SetsAndMaps/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3.SetsAndMaps/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3.SetsAndMaps/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3.SetsAndMaps/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3.SetsAndMaps/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3.SetsAndMaps/.~lock.03. Java-Advanced-Sets-and-Maps-Lab.docx#" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3.SetsAndMaps/03. Java-Advanced-Sets-and-Maps-Lab.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3.SetsAndMaps/3.SetsAndMaps.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3.SetsAndMaps/src/com/company/AcademyGraduation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3.SetsAndMaps/src/com/company/AverageStudentsGrades.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3.SetsAndMaps/src/com/company/CitiesByContinenetAndCountry.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3.SetsAndMaps/src/com/company/CountRealNumbers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3.SetsAndMaps/src/com/company/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3.SetsAndMaps/src/com/company/ParkingLot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3.SetsAndMaps/src/com/company/ProductShop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3.SetsAndMaps/src/com/company/SoftuniParty.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3.SetsAndMaps/src/com/company/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3.SetsAndMaps/src/com/company/Voina.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
-    </list>
+    <list default="true" id="36b26657-9b71-4162-935a-13b1e5bdba2c" name="Default Changelist" comment="Update" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -118,15 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/BrowserHistory.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -313,22 +201,31 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558098775544</updated>
-      <workItem from="1558098777068" duration="9138000" />
+      <workItem from="1558098777068" duration="9730000" />
     </task>
+    <task id="LOCAL-00001" summary="Update">
+      <created>1558126766116</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1558126766116</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9138000" />
+    <option name="totallyTimeSpent" value="9730000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1384" y="48" width="2456" height="2112" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19625" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19625" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -338,7 +235,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3297546" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3297546" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997955" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -356,6 +253,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
