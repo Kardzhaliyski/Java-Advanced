@@ -11,15 +11,13 @@ public class BasicStackOperations {
         var elemToPush = Integer.parseInt(cmnds[0]);
         var elemToPop = Integer.parseInt(cmnds[1]);
         var elemToCheck = Integer.parseInt(cmnds[2]);
-        var inputElements = Arrays.stream(sc.nextLine().split("\\s+"))
+        var inputElements = Arrays.stream(sc.nextLine().split("\\s+", elemToPush))
                 .mapToInt(Integer::parseInt)
                 .toArray();
         var numStack = new ArrayDeque<Integer>();
 
-        for (int i = 0; i < elemToPush; i++) {
-            if (inputElements.length > i) {
-                numStack.push(inputElements[i]);
-            }
+        for (int inputElement : inputElements) {
+            numStack.push(inputElement);
         }
 
         for (int i = 0; i < elemToPop; i++) {

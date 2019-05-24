@@ -6,13 +6,13 @@ import java.util.Scanner;
 public class Robotics {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        var currTimeInSecounds = 0;
         var robotsInfo = sc.nextLine().split(";");
         var robotsArr = new Robot[robotsInfo.length];
         for (int i = 0; i < robotsArr.length; i++) {
             robotsArr[i] = new Robot(robotsInfo[i]);
         }
 
+        var currTimeInSecounds = 0;
         var startTimeString = sc.nextLine();
         currTimeInSecounds = getTimeInSec(startTimeString);
 

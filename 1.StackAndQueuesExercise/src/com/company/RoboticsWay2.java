@@ -16,7 +16,13 @@ public class RoboticsWay2 {
         var mins = Integer.parseInt(timeInput[1]);
         var secs = Integer.parseInt(timeInput[2]);
         var robots = new LinkedHashMap<String, LocalDateTime[]>();
-        LocalDateTime time = LocalDateTime.of(1900,1,1,hours, mins, secs);
+        LocalDateTime time = LocalDateTime.of(
+                1900,
+                1,
+                1,
+                hours,
+                mins,
+                secs);
 
 
         for (String robot : robotsData) {
@@ -26,7 +32,14 @@ public class RoboticsWay2 {
             robots.put(name, new LocalDateTime[2]);
             var currRobot = robots.get(name);
             currRobot[0] = time;
-            currRobot[1] = LocalDateTime.of(1900,1,1,0,0,0).plusSeconds(processTime);
+            currRobot[1] = LocalDateTime.of(
+                    1900,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0)
+                    .plusSeconds(processTime);
             //workingRobots.offer(name);
         }
 
@@ -51,7 +64,12 @@ public class RoboticsWay2 {
                     String product = productsQueue.poll();
                     printTookProduct(robot, product, time);
                     var currRobot = robots.get(robot);
-                    currRobot[0] = time.plusSeconds(currRobot[1].getSecond() + currRobot[1].getMinute() * 60 + currRobot[1].getHour() * 3600);
+                    currRobot[0] = time
+                            .plusSeconds(currRobot[1].getSecond()
+                                    + currRobot[1].getMinute()
+                                    * 60
+                                    + currRobot[1].getHour()
+                                    * 3600);
                     break;
                 }
             }
