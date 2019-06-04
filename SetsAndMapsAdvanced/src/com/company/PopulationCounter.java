@@ -16,7 +16,8 @@ public class PopulationCounter {
 
         var input = "";
         while (!"report".equalsIgnoreCase(input = sc.nextLine())) {
-            var data = input.split("[^\\s\\w]+");
+            // var data = input.split("[^\\s\\w]+");
+            var data = input.split("[\\\\|]+");
             var city = data[0];
             var countryName = data[1];
             var population = Long.parseLong(data[2]);
