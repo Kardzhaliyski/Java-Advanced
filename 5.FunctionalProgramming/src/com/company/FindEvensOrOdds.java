@@ -11,6 +11,7 @@ import java.util.stream.IntStream;
 public class FindEvensOrOdds {
     public static void main(String[] args) {
         try (BufferedReader bfr = new BufferedReader(new InputStreamReader(System.in))) {
+
             var boundaries = Arrays.stream(bfr.readLine().split("\\s+")).mapToInt(Integer::parseInt).toArray();
             String condition = bfr.readLine();
             Predicate<Integer> filter = getFilter(condition);
@@ -26,7 +27,7 @@ public class FindEvensOrOdds {
     }
 
     private static Predicate<Integer> getFilter(String condition) {
-        Predicate<Integer> filter = null;
+        Predicate<Integer> filter;
         if(condition.equals("odd")) {
             filter = num -> num % 2 != 0;
         } else {
