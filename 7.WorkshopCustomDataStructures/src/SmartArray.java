@@ -88,7 +88,7 @@ public class SmartArray {
 
     private void checkIndex(int index) {
         if(index >= this.size || index < 0) {
-            throw new IndexOutOfBoundsException("Index " + index + " is out of bounds!");
+            throw new IndexOutOfBoundsException("Index " + index + " is out of bounds! For size: " + this.size);
         }
     }
 

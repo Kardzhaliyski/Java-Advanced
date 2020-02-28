@@ -9,6 +9,7 @@ public class Main {
     public static void main(String[] args) {
         try (BufferedReader bfr = new BufferedReader(new InputStreamReader(System.in))) {
             Map<String, Engine> engines = new HashMap<>();
+
             var engineCount = Integer.parseInt(bfr.readLine());
             for (int i = 0; i < engineCount; i++) {
                 var tokens = bfr.readLine().split("\\s+");
