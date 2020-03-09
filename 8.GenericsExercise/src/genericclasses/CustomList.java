@@ -1,10 +1,12 @@
 package genericclasses;
 
 import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.Iterator;
 import java.util.List;
 import java.util.function.Consumer;
 
-public class CustomList<T extends Comparable<T>> {
+public class CustomList<T extends Comparable<T>> implements Iterable<T>{
     private List<T> list;
 
     public CustomList(){
@@ -53,8 +55,9 @@ public class CustomList<T extends Comparable<T>> {
         return this.list.contains(element);
     }
 
-    public void forEach(Consumer<T> consumer) {
-        list.forEach(consumer);
+
+    public void sort() {
+        this.list.sort(Comparable::compareTo);
     }
 
     public void swapElements(int index1, int index2) {
@@ -78,5 +81,10 @@ public class CustomList<T extends Comparable<T>> {
         }
 
         return count;
+    }
+
+    @Override
+    public Iterator<T> iterator() {
+        return this.list.iterator();
     }
 }

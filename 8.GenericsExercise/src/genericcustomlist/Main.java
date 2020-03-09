@@ -50,6 +50,10 @@ public class Main {
                         list.forEach(System.out::println);
                         break;
                     }
+                    case "sort": {
+                        list.sort();
+                        break;
+                    }
                 }
 
                 inputCommand = bfr.readLine();
