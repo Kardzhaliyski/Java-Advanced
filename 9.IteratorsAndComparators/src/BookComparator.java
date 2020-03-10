@@ -1,5 +1,11 @@
-public class BookComparator {
-    public static int compare(Book book1, Book book2) {
-        return book1.compareTo(book2);
+import java.util.Comparator;
+
+public class BookComparator implements Comparator<Book> {
+
+    @Override
+    public int compare(Book left, Book right) {
+        var difference = left.getTitle().compareTo(right.getTitle());
+
+        return difference != 0 ? difference : left.getYear() - right.getYear();
     }
 }
